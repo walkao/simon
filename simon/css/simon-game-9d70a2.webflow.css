@@ -1,0 +1,117 @@
+.section100 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  padding-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div_with_ovals {
+  width: 450px;
+}
+
+.oval {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.oval._1_bg {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #0080d6;
+}
+
+.oval._2_bg {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #c200ff;
+}
+
+.oval._3_bg {
+  background-color: #00ce19;
+}
+
+.oval._4_bg {
+  background-color: #cbfd00;
+}
+
+.div_flex_ovals {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.heading {
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+.div_pop {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: none;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+}
+
+.div_pop.enabled_pop {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button {
+  background-color: red;
+}
+
+.result {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
