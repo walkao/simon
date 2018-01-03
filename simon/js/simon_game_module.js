@@ -1,4 +1,6 @@
-var simon = (function() {
+var simon = (function() 
+	     
+	"use strict";
 
 	// cache DOM
 	var arrayOvals = ["#1", "#2", "#3", "#4"]; // vars of ovals, we can have more ovals than 4
